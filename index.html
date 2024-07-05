@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1 style="text-align: center;">Form creation Task</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col-10">
+                <form action="index.html" method="post">
+                    <label for="name">Name<span class="redstar">*</span></label><br>
+                    <input class="" type="text" id="fname" >
+                    <input class="" type="text" id="lname"><br>
+                    <span class="first">First</span><span class="last">Last</span><br><br>
+                    <label for="email">Email<span class="redstar">*</span></label><br>
+                    <input type="email" id="email"><br><br>
+                    <label for="exp">Your Experience<span class="redstar">*</span></label><br>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>       
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <p>Overall, how would you rate your experience with us?</p>
+                    <label for="satisfy">How satisfied are you with<span class="redstar">*</span></label>
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <th style="width: 200px;"></th>
+                            <th style="width: 200px;">Very Satisfied</th>
+                            <th style="width: 200px;">Unsatisfied</th>
+                            <th style="width: 200px;">Neutral</th>
+                            <th style="width: 200px;">Satisfied</th>
+                            <th style="width: 200px;">Very Satisfied</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Purchase</td>
+                                <td><input class="form-check-input" type="radio" name="purchaseRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="purchaseRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="purchaseRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="purchaseRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="purchaseRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                            </tr>
+                            <tr>
+                                <td>Service</td>
+                                <td><input class="form-check-input" type="radio" name="serviceRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="serviceRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="serviceRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="serviceRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="serviceRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                            </tr>
+                            <tr>
+                                <td>Company Overall</td>
+                                <td><input class="form-check-input" type="radio" name="companyRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="companyRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="companyRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="companyRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="companyRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <label for="satisfy">How likely are you to<span class="redstar">*</span></label>
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <th style="width: 200px;"></th>
+                            <th style="width: 200px;">Very Unlikely</th>
+                            <th style="width: 200px;">Unlikely</th>
+                            <th style="width: 200px;">Neutral</th>
+                            <th style="width: 200px;">Likely</th>
+                            <th style="width: 200px;">Very Likely</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Buy from us again</td>
+                                <td><input class="form-check-input" type="radio" name="buyagainRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="buyagainRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="buyagainRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="buyagainRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="buyagainRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                            </tr>
+                            <tr>
+                                <td>Recommend our product to others</td>
+                                <td><input class="form-check-input" type="radio" name="recomRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="recomRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="recomRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="recomRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="recomRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                            </tr>
+                            <tr>
+                                <td>Recommed our company to others</td>
+                                <td><input class="form-check-input" type="radio" name="reccompRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="reccompRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="reccompRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="reccompRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                                <td><input class="form-check-input" type="radio" name="reccompRadioOptions"
+                                        id="inlineRadio1" value="option1"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <label for="suggestions">Additional comments or suggestions</label><br>
+                    <textarea name="suggestions" id="" style="width: 1080px; height: 100px;"></textarea><br>
+
+                    <button name="submit"> Submit</button>
+                </form>
+
+
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
